@@ -1,10 +1,10 @@
 package main
 
 import (
-	enc "DistributedIBE/encryption"
 	"bytes"
 	"encoding/hex"
 	"fmt"
+	enc "github.com/FairBlock/DistributedIBE/encryption"
 	"os"
 
 	bls "github.com/drand/kyber-bls12381"

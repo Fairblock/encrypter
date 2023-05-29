@@ -2,6 +2,16 @@
 
 An executable for encrypting plain text using DistributedIBE encryption with given ID & public key
 
+## Build:
+
+1. `go mod tidy`
+
+
+2. `go build`
+
+
+3. `go install`
+
 ## Usage: 
 
 `./encrypter <ID> <Public Key in Hex> <Plain Text>`
