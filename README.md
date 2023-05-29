@@ -4,13 +4,24 @@ An executable for encrypting plain text using DistributedIBE encryption with giv
 
 ## Build:
 
-1. `go mod tidy`
+```bash
+go build
+go install
+```
 
+Now you can run the `encrypter` in terminal with 
 
-2. `go build`
+```
+encrypter <ID> <Public Key in Hex> <Plain Text>
+```
 
+If you get this error `encrypter: command not found`, Run the following command
 
-3. `go install`
+```bash
+export PATH=$PATH:$(go env GOPATH)/bin
+```
+
+or you can run the executable by `./encrypter` after `go build`
 
 ## Usage: 
 
